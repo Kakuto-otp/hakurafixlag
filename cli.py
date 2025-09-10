@@ -3,7 +3,7 @@ import sys
 sys.path.insert(0, "/data/data/com.termux/files/usr/lib/python3.12/site-packages")
 
 import argparse
-from hakurafixlag import run_fix_lag
+from hakurafixlag.run_fix_lag import run_fix_lag
 
 def main():
     parser = argparse.ArgumentParser(description="Fix lag, tối ưu hệ thống, gửi file telegram.")
