@@ -1,3 +1,7 @@
+#!/data/data/com.termux/files/usr/bin/env python3.12
+import sys
+sys.path.insert(0, "/data/data/com.termux/files/usr/lib/python3.12/site-packages")
+
 import argparse
 from hakurafixlag import run_fix_lag
 
